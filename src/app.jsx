@@ -1,11 +1,13 @@
 import React from 'react';
 import Header from './components/header';
+import Contact from './components/contact';
 
 export default class App extends React.Component {
   render() {
     return (
       <div>
         <Header />
+        <Contact />
         <h1>It Works! boom</h1>
         <p>This React project just works including <span className="redBg">module</span> local styles.</p>
         <p>Enjoy!</p>
