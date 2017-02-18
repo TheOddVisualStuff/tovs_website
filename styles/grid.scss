@@ -9,7 +9,13 @@
   float: left;
   margin: 1% 0 1% 1.6%;
 }
+.label-paragraph-col {
+  display: block;
+  float:left;
+  margin: 1% 0 1% 0.5%;
+}
 
+.label-paragraph-col,
 .col:first-child { margin-left: 0; }
 
 .group:before,
@@ -19,6 +25,7 @@
 
 .group { zoom:1; /* For IE 6/7 */ }
 
+// 12 column grid START
 .span_12_of_12 {
   width: 100%;
 }
@@ -66,12 +73,41 @@
 .span_1_of_12 {
   width: 6.866%;
 }
+// 12 column grid END
+
+// 2 column grid START
+.span_2_of_2 {
+  width: 100%;
+}
+.span_1_of_2 {
+  width: 49.75%;
+}
+// 2 column grid END
+
+// 4 column grid START
+.span_4_of_4 {
+  width: 100%;
+}
+.span_3_of_4 {
+  width: 74.87%;
+}
+.span_2_of_4 {
+  width: 49.75%;
+}
+.span_1_of_4 {
+  width: 24.62%;
+}
+// 4 column grid END
 
 @media only screen and (max-width: 480px) {
+  .label-paragraph-col,
   .col {  margin: 1% 0 1% 0%; }
 
+  .span_2_of_2, .span_1_of_2, // 2 column grid
+  .span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4, // 2 column grid
   .span_1_of_12, .span_2_of_12, .span_3_of_12, .span_4_of_12, .span_5_of_12, .span_6_of_12, .span_7_of_12,
   .span_8_of_12, .span_9_of_12, .span_10_of_12, .span_11_of_12, .span_12_of_12 {
     width: 100%;
   }
 }
+
