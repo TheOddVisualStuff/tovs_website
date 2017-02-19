@@ -1,9 +1,33 @@
 body {
-	background-color: #000;
-	color: #fff;
-	background-image: url(/images/background.jpg);
-	background-repeat: no-repeat;
-	//background-position: top right;
-	bottom:;ackground-size: cover;
-	background-position: top right;
+  background-color: #000;
+  color: #fff;
+
+  margin: 0;
+  padding: 0;
+
+  // Agent props
+  //display: block;
+  //margin-top: 8px;
+  //margin-right: 8px;
+  //margin-bottom: 8px;
+  //margin-left: 8px;
+}
+
+.header {
+  background-image: linear-gradient(to bottom, #000000, rgba(0, 0, 0, 0.0));
+}
+
+#doublePage {
+  background-image: url(/images/background.jpg);
+  background-repeat: no-repeat;
+  //background-position: top right;
+  background-size: cover;
+  background-position: top right;
+}
+
+.blackBottomGradient {
+  background-image: linear-gradient(to bottom, #000000, rgba(0, 0, 0, 0.0));
+}
+.blackBottomGradientReversed {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.0), #000000);
 }

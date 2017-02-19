@@ -7,7 +7,7 @@ export default class Contact extends React.Component {
       backgroundColor: 'red'
     };
     return (
-      <section className="section group">
+      <section className="section group blackBottomGradient">
         <div className="col span_4_of_12" style={bgColor}>
           <LabelParagraph label="snel">+3106123456</LabelParagraph>
         </div>
