@@ -14,8 +14,9 @@ body {
 }
 
 .header {
-  height: 123px;
-  background-image: linear-gradient(to bottom, #000000, rgba(0, 0, 0, 0.0));
+  height: 90px;
+  //background-image: linear-gradient(to bottom, #000000, rgba(0, 0, 0, 0.0) 10%);
+  //background: linear-gradient(to bottom, #1e5799 0%,#7db9e8 12%);
 }
 .header a {
   position: absolute;
@@ -27,12 +28,12 @@ body {
   background-image: url(/images/background.jpg);
   background-repeat: no-repeat;
   //background-position: top right;
-  background-size: cover;
+  //background-size: cover;
   background-position: top right;
 }
 
 .blackBottomGradient {
-  background-image: linear-gradient(to bottom, #000000, rgba(0, 0, 0, 0.0));
+  background-image: linear-gradient(to bottom, #000000, rgba(0, 0, 0, 0.0) 100px);
 }
 .blackBottomGradientReversed {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.0), #000000);
