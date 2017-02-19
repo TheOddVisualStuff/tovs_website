@@ -39,7 +39,8 @@ export default class App extends React.Component {
           </div>
         </div>
         <div className="page" style={{height: '100vh', widht: '100%', position: 'relative', background: 'transparent'}}>
-          <div className="" style={{height: '216px'}}>Selected Work</div>
+          <div className="" style={{height: '146px', textAlign: 'center'}}>Selected Work</div>
+          <div>Placeholderimage</div>
         </div>
       </div>
     )
