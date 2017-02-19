@@ -4,7 +4,6 @@ import LabelParagraph from '../label-paragraph';
 export default class Contact extends React.Component {
   render() {
     const bgColor = {
-      backgroundColor: 'red'
     };
     return (
       <section className="section group blackBottomGradient">

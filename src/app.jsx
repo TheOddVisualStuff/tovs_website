@@ -29,8 +29,8 @@ export default class App extends React.Component {
             </div>
           </div>
 
-          <div className="page" style={{height: '100vh', widht: '100%', position: 'relative', background: 'transparent'}}>
-            <Header />
+          <div id="home" className="page" style={{height: '100vh', widht: '100%', position: 'relative', background: 'transparent'}}>
+            <div>Yo header</div>
             <div style={{position: 'absolute', bottom: '0px', height:'70px', width: '100%'}} className="blackBottomGradientReversed">
               <h1 style={{float: 'right'}}>
                 (inter)planetary Creative Direction services
@@ -39,7 +39,7 @@ export default class App extends React.Component {
           </div>
         </div>
         <div className="page" style={{height: '100vh', widht: '100%', position: 'relative', background: 'transparent'}}>
-          <div className="blackBottomGradientReversed" style={{height: '216px', marginTop: '-70px'}}>Selected Work</div>
+          <div className="" style={{height: '216px'}}>Selected Work</div>
         </div>
       </div>
     )

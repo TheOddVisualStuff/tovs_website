@@ -3,7 +3,7 @@ import React from 'react';
 export default class LabelParagraph extends React.Component {
   render() {
     const bgColor = {
-      backgroundColor: 'red'
+      // backgroundColor: 'red'
     };
     return (
       <section className="section group">
