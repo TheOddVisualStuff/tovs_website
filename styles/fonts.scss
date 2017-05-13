@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'acumin';
+  src: url('/fonts/acumin.eot');
+  src: url('/fonts/acumin.eot') format('embedded-opentype'),
+  url('/fonts/acumin.woff2') format('woff2'),
+  url('/fonts/acumin.woff') format('woff'),
+  url('/fonts/acumin.ttf') format('truetype'),
+  url('/fonts/acumin.svg#acumin') format('svg');
+}
+
+@font-face {
+  font-family: 'belwe';
+  src: url('/fonts/BelweMedium.eot');
+  src: url('/fonts/BelweMedium.eot') format('embedded-opentype'),
+  url('/fonts/BelweMedium.woff2') format('woff2'),
+  url('/fonts/BelweMedium.woff') format('woff'),
+  url('/fonts/BelweMedium.ttf') format('truetype'),
+  url('/fonts/BelweMedium.svg#BelweMedium') format('svg');
+}
+
+.fw-normal {
+  font-weight: normal;
+}
+
+.tt-uppercase {
+ text-transform: uppercase;
+}
+
+.fs-24px {
+  font-size: 25px;
+}
+
+.fs-25px {
+  font-size: 25px;
+}
