@@ -24,15 +24,16 @@ body {
   margin-top: 123px;
 }
 
-.blackBottomGradient {
-  background-image: linear-gradient(to bottom, #000000, rgba(0, 0, 0, 0.0) 100px);
-}
 .blackBottomGradientReversed {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.0), #000000);
 }
 
 .max-width-1200 {
   max-width: 1200px;
+}
+
+.max-width-970 {
+  max-width: 970px;
 }
 
 .margin-0-auto {
