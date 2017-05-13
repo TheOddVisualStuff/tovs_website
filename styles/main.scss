@@ -16,11 +16,9 @@ body {
 }
 
 #doublePage {
-  background-image: url(/images/background.jpg);
-  background-repeat: no-repeat;
   //background-position: top right;
-  //background-size: cover;
-  background-position: top right;
+  background-size: cover;
+  background: url(/images/background.jpg) no-repeat bottom left;
   margin-top: 123px;
 }
 
