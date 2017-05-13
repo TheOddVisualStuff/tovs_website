@@ -102,6 +102,7 @@
 @media only screen and (max-width: 480px) {
   //.label-paragraph-col,
   .col {  margin: 1% 0 1% 0%; }
+  .label-paragraph-col > div { text-align: left !important;}
 
   .span_2_of_2, .span_1_of_2, // 2 column grid
   //.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4, // 2 column grid
