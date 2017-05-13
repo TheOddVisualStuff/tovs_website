@@ -9,36 +9,43 @@ export default class App extends React.Component {
       float: 'none',
       margin: '240px auto 0'
     };
+
+    const labelStyle = {
+      paddingTop: '16px',
+      paddingRight: '5px',
+      fontSize: '13px',
+      textTransform: 'lowercase',
+      fontFamily: 'Belwe Light',
+      letterSpacing: '0.50px'
+    };
+
     return (
       <div>
         <Header />
         <div id="doublePage">
           <Contact />
           <div className="max-width-970 section group" style={{margin: '0 auto'}}>
-
             <div className="col span_1_of_12 ta-right">
-              <div style={{ paddingTop: '16px', paddingRight: '5px', fontSize: '13px', fontFamily: 'belwe' }}>
-                over
+              <div style={ labelStyle }>
+                snel
               </div>
             </div>
-            <div className="col0 span_11_of_12 fs-24px">
+            <div className="col0 span_11_of_12 fs-27px f-paragraph">
               The Odd Visual Stuff denkt, ontwerpt en creëert interdisiplinair.
               Dat betekent dat je niet klaar bent met alleen een logo of website. Maar het begint allemaal concept.
               Een groot netwerk van creative collaga’s maakt het mogelijk om zo divers Design te maken.
             </div>
+          </div>
 
-
-            <div className="col span_9_of_12" style={overRideStyle}>
-              <LabelParagraph label="over">
-                The Odd Visual Stuff denkt, ontwerpt en creëert interdisiplinair.
-                Dat betekent dat je niet klaar bent met alleen een logo of website. Maar het begint allemaal concept. Een groot netwerk van creative collaga’s maakt het mogelijk om zo divers Design te maken.
-              </LabelParagraph>
+          <div className="max-width-970 section group" style={{margin: '210px auto 0'}}>
+            <div className="col span_1_of_12 ta-right">
+              <div style={ labelStyle }>
+                Services
+              </div>
             </div>
-
-            <div className="col span_7_of_12" style={overRideStyle}>
-              <LabelParagraph label="services" style={overRideStyle}>
-                Verbazen en laten zien wat er mogelijk is. Dat is het doel van Creative Direction. The Odd Visual Stuff helpt mensen en merken de volgende stap te maken Een duidelijk idee en motivatie is net zo belangerijk.
-              </LabelParagraph>
+            <div className="col0 span_11_of_12 fs-27px f-paragraph">
+              Verbazen en laten zien wat er mogelijk is. Dat is het doel van Creative Direction.
+              The Odd Visual Stuff helpt mensen en merken de volgende stap te maken Een duidelijk idee en motivatie is net zo belangerijk.
             </div>
           </div>
 
@@ -58,13 +65,19 @@ export default class App extends React.Component {
           </div>
         </div>
 
-        <div className="section group" style={{maxWidth: '1150px', margin: '0 auto', height: '346px'}}>
-          <div className="col span_7_of_12" style={Object.assign(overRideStyle, {margin: '72px auto 0'})}>
-            <LabelParagraph label="over">
-              The Odd Visual Stuff denkt, ontwerpt en creëert interdisiplinair.
-              Dat betekent dat je niet klaar bent met alleen een logo of website. Maar het begint allemaal concept.
-              Een groot netwerk van creative collaga’s maakt het mogelijk om zo divers Design te maken.
-            </LabelParagraph>
+
+
+        <div className="max-width-970 section group" style={{margin: '85px auto'}}>
+          <div className="col span_1_of_12 ta-right">
+            <div style={ labelStyle }>
+              Services
+            </div>
+          </div>
+          <div className="col0 span_11_of_12 fs-27px f-paragraph">
+            Poster can be one of the effective marketing and advertising materials.
+            It is also a great tool to use when you want to present your services to a new league or as a point of sale display on picture day.
+            The poster must show your products that are available, along with your company name and contact information.
+            If you having trouble about creating a good 4 color poster print, a 4 color printing company that has 4 color poster printing service may be able to help you made your poster.
           </div>
         </div>
 
