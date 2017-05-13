@@ -31,7 +31,7 @@ export default class App extends React.Component {
 
           <div id="home" className="page" style={{height: '100vh', width: '100%', background: 'transparent'}}>
             <div>Yo header</div>
-            <div style={{height:'70px', width: '100%'}} className="blackBottomGradientReversed">
+            <div style={{height:'70px', width: '100%'}}>
               <h1 style={{float: 'right'}}>
                 (inter)planetary Creative Direction services
               </h1>
