@@ -14,8 +14,21 @@ export default class App extends React.Component {
         <Header />
         <div id="doublePage">
           <Contact />
-          <div className="section group" style={{maxWidth: '1150px', margin: '0 auto'}}>
-            <div className="col span_7_of_12" style={overRideStyle}>
+          <div className="max-width-970 section group" style={{margin: '0 auto'}}>
+
+            <div className="col span_1_of_12 ta-right">
+              <div style={{ paddingTop: '16px', paddingRight: '5px', fontSize: '13px', fontFamily: 'belwe' }}>
+                over
+              </div>
+            </div>
+            <div className="col0 span_11_of_12 fs-24px">
+              The Odd Visual Stuff denkt, ontwerpt en creëert interdisiplinair.
+              Dat betekent dat je niet klaar bent met alleen een logo of website. Maar het begint allemaal concept.
+              Een groot netwerk van creative collaga’s maakt het mogelijk om zo divers Design te maken.
+            </div>
+
+
+            <div className="col span_9_of_12" style={overRideStyle}>
               <LabelParagraph label="over">
                 The Odd Visual Stuff denkt, ontwerpt en creëert interdisiplinair.
                 Dat betekent dat je niet klaar bent met alleen een logo of website. Maar het begint allemaal concept. Een groot netwerk van creative collaga’s maakt het mogelijk om zo divers Design te maken.

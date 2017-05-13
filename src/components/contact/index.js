@@ -6,7 +6,7 @@ export default class Contact extends React.Component {
     const bgColor = {
     };
     return (
-      <div className="margin-0-auto max-width-1200">
+      <div className="margin-0-auto max-width-970">
         <section className="section group" style={{ paddingTop: '140px' }}>
           <div className="col span_4_of_12" style={bgColor}>
             <LabelParagraph label="snel">+3106123456</LabelParagraph>
