@@ -1,14 +1,4 @@
 @font-face {
-  font-family: 'acumin';
-  src: url('/fonts/acumin.eot');
-  src: url('/fonts/acumin.eot') format('embedded-opentype'),
-  url('/fonts/acumin.woff2') format('woff2'),
-  url('/fonts/acumin.woff') format('woff'),
-  url('/fonts/acumin.ttf') format('truetype'),
-  url('/fonts/acumin.svg#acumin') format('svg');
-}
-
-@font-face {
   font-family: 'belwe';
   src: url('/fonts/BelweMedium.eot');
   src: url('/fonts/BelweMedium.eot') format('embedded-opentype'),
@@ -27,9 +17,14 @@
 }
 
 .fs-24px {
-  font-size: 25px;
+  font-size: 24px;
 }
 
 .fs-25px {
   font-size: 25px;
+}
+
+.f-tovs {
+  font-weight: 500;
+  letter-spacing: 0.4px;
 }
