@@ -37,7 +37,7 @@ export default class App extends React.Component {
             </div>
           </div>
 
-          <div className="max-width-970 section group" style={{margin: '210px auto 0'}}>
+          <div className="max-width-970 section group" style={{margin: '150px auto 200px'}}>
             <div className="col span_1_of_12 ta-right">
               <div style={ labelStyle }>
                 Services
