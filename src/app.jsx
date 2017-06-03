@@ -15,7 +15,7 @@ export default class App extends React.Component {
       paddingRight: '5px',
       fontSize: '13px',
       textTransform: 'lowercase',
-      fontFamily: 'Belwe Light',
+      fontFamily: 'BelweLtBTWXX-Medium',
       letterSpacing: '0.50px'
     };
 
@@ -27,7 +27,7 @@ export default class App extends React.Component {
           <div className="max-width-970 section group" style={{margin: '0 auto'}}>
             <div className="col span_1_of_12 ta-right">
               <div style={ labelStyle }>
-                snel
+                Snel
               </div>
             </div>
             <div className="col0 span_11_of_12 fs-27px f-paragraph">
