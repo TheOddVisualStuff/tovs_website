@@ -30,7 +30,7 @@ export default class App extends React.Component {
                 Snel
               </div>
             </div>
-            <div className="col0 span_11_of_12 fs-27px f-paragraph">
+            <div className="col0 span_11_of_12 fs-27px f-paragraph f-lh-33px">
               The Odd Visual Stuff denkt, ontwerpt en creëert interdisiplinair.
               Dat betekent dat je niet klaar bent met alleen een logo of website. Maar het begint allemaal concept.
               Een groot netwerk van creative collaga’s maakt het mogelijk om zo divers Design te maken.
@@ -43,7 +43,7 @@ export default class App extends React.Component {
                 Services
               </div>
             </div>
-            <div className="col0 span_11_of_12 fs-27px f-paragraph">
+            <div className="col0 span_11_of_12 fs-27px f-paragraph f-lh-33px">
               Verbazen en laten zien wat er mogelijk is. Dat is het doel van Creative Direction.
               The Odd Visual Stuff helpt mensen en merken de volgende stap te maken Een duidelijk idee en motivatie is net zo belangerijk.
             </div>
@@ -73,7 +73,7 @@ export default class App extends React.Component {
               Services
             </div>
           </div>
-          <div className="col0 span_11_of_12 fs-27px f-paragraph">
+          <div className="col0 span_11_of_12 fs-27px f-paragraph f-lh-33px">
             Poster can be one of the effective marketing and advertising materials.
             It is also a great tool to use when you want to present your services to a new league or as a point of sale display on picture day.
             The poster must show your products that are available, along with your company name and contact information.
