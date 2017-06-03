@@ -6,7 +6,7 @@ export default class LabelParagraph extends React.Component {
       fontSize: '23px'
     };
     const labelStyle = {
-      fontFamily: 'belwe',
+      fontFamily: 'BelweLtBTWXX-Medium',
       fontSize: '13px'
     };
     return (
