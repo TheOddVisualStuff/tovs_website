@@ -51,7 +51,9 @@ export default class App extends React.Component {
 
           <div id="home" className="page" style={{height: 'calc(100vh + 140px)', width: '100%', background: 'transparent'}}>
             <div style={{ position: 'absolute', height: 'calc(100vh + 140px)', width: '100%'}}>
-              <div>Yo header</div>
+              <div className="margin-0-auto max-width-1200">
+                <h1 className="fs-25px tt-uppercase f-tovs" style={{ margin: 0, padding: '47px 0px 0px 47px' }}>theoddvisualstuff</h1>
+              </div>
               <div style={{height:'70px', width: '100%'}}>
                 <h1 className="fs-33px" style={{ position: 'absolute', right: '9%', bottom: '22%', fontFamily: 'BelweLtBTWXX-Medium', fontWeight: 'normal'}}>
                   (inter)planetary Creative Design services
