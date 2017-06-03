@@ -50,24 +50,24 @@ export default class Contact extends React.Component {
         <section className="max-width-970 section group" style={{ margin: '0 auto', paddingTop: '105px' }}>
           <div className="col fs-23px f-paragraph f-lh-29px" style={{ width: '21%'}}>
 
-            <section className="section group">
-              <div className="col span_4_of_12 ta-right">
-                <div style={ Object.assign({}, labelStyle, {paddingTop: '6px'}) }>
+            <section className="section group" style={{ height: '29px'}}>
+              <div className="col span_4_of_12 ta-right" style={{ margin: 0, height: '29px' }}>
+                <div style={ Object.assign({}, labelStyle, {paddingTop: 0, lineHeight: '42px', height: '29px'}) }>
                   Snel
                 </div>
               </div>
-              <div className="col0 span_8_of_12 fs-23px f-paragraph f-lh-29px">
+              <div className="col0 span_8_of_12 fs-23px f-paragraph f-lh-29px" style={{ margin: 0 }}>
                 +3106123456
               </div>
             </section>
 
-            <section className="section group">
-              <div className="col span_4_of_12 ta-right">
-                <div style={ Object.assign({}, labelStyle, {paddingTop: '6px'}) }>
+            <section className="section group" style={{ height: '29px'}}>
+              <div className="col span_4_of_12 ta-right" style={{ margin: 0, height: '29px' }}>
+                <div style={ Object.assign({}, labelStyle, {paddingTop: 0, lineHeight: '42px', height: '29px'}) }>
                   Traag
                 </div>
               </div>
-              <div className="col0 span_8_of_12 fs-23px f-paragraph f-lh-29px">
+              <div className="col0 span_8_of_12 fs-23px f-paragraph f-lh-29px" style={{ margin: 0 }}>
                 orphe@tovs.nla
               </div>
             </section>
@@ -87,23 +87,23 @@ export default class Contact extends React.Component {
 
 
           <div className="col0 fs-23px f-paragraph f-lh-29px" style={{ width: '25%'}}>
-            <section className="section group">
-              <div className="col span_4_of_12 ta-right">
-                <div style={ Object.assign({}, labelStyle, {paddingTop: '6px'}) }>
+            <section className="section group" style={{ height: '29px'}}>
+              <div className="col span_4_of_12 ta-right" style={{ margin: 0, height: '29px' }}>
+                <div style={ Object.assign({}, labelStyle, {paddingTop: 0, lineHeight: '42px', height: '29px'}) }>
                   KvK
                 </div>
               </div>
-              <div className="col0 span_8_of_12 fs-23px f-paragraph f-lh-29px">
+              <div className="col0 span_8_of_12 fs-23px f-paragraph f-lh-29px" style={{ margin: 0 }}>
                 60376651
               </div>
             </section>
-            <section className="section group">
-              <div className="col span_4_of_12 ta-right">
-                <div style={ Object.assign({}, labelStyle, {paddingTop: '6px'}) }>
+            <section className="section group" style={{ height: '29px'}}>
+              <div className="col span_4_of_12 ta-right" style={{ margin: 0, height: '29px' }}>
+                <div style={ Object.assign({}, labelStyle, {paddingTop: 0, lineHeight: '42px', height: '29px'}) }>
                   BTW
                 </div>
               </div>
-              <div className="col0 span_8_of_12 fs-23px f-paragraph f-lh-29px">
+              <div className="col0 span_8_of_12 fs-23px f-paragraph f-lh-29px" style={{ margin: 0 }}>
                 NL117370101B01
               </div>
             </section>
