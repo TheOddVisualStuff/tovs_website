@@ -37,7 +37,7 @@ export default class App extends React.Component {
             </div>
           </div>
 
-          <div className="max-width-970 section group" style={{margin: '210px auto 0'}}>
+          <div className="max-width-970 section group" style={{margin: '150px auto 200px'}}>
             <div className="col span_1_of_12 ta-right">
               <div style={ labelStyle }>
                 Services
@@ -49,23 +49,28 @@ export default class App extends React.Component {
             </div>
           </div>
 
-          <div id="home" className="page" style={{height: '100vh', width: '100%', background: 'transparent'}}>
-            <div>Yo header</div>
-            <div style={{height:'70px', width: '100%'}}>
-              <h1 style={{float: 'right'}}>
-                (inter)planetary Creative Direction services
-              </h1>
+          <div id="home" className="page" style={{height: 'calc(100vh + 140px)', width: '100%', background: 'transparent'}}>
+            <div style={{ position: 'absolute', height: 'calc(100vh + 140px)', width: '100%'}}>
+              <div className="margin-0-auto max-width-1200">
+                <h1 className="fs-25px tt-uppercase f-tovs" style={{ margin: 0, padding: '47px 0px 0px 47px' }}>theoddvisualstuff</h1>
+              </div>
+              <div style={{height:'70px', width: '100%'}}>
+                <h1 className="fs-33px" style={{ position: 'absolute', right: '9%', bottom: '22%', fontFamily: 'BelweLtBTWXX-Medium', fontWeight: 'normal'}}>
+                  (inter)planetary Creative Design services
+                </h1>
+              </div>
+              <div style={{ position: 'absolute', bottom: '0px', width: '100%'}}>
+                <div className="gradientSelectedWork fs-33px" style={{ height: '76px', paddingTop: '72px', textAlign: 'center'}}>Geselecteerd Werk</div>
+              </div>
             </div>
           </div>
         </div>
-        <div className="" style={{height: '146px', textAlign: 'center'}}>Selected Work</div>
+
         <div className="image1">
           <div style={{textAlign: 'center', backgroundColor: '#2F2F2F', maxWidth: '100%', maxHeight: '605px'}}>
             <img src="/images/project/wyws-magazine1-hero.jpg" alt="" style={{maxWidth: '100%', maxHeight: '605px'}}/>
           </div>
         </div>
-
-
 
         <div className="max-width-970 section group" style={{margin: '85px auto'}}>
           <div className="col span_1_of_12 ta-right">
