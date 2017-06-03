@@ -5,33 +5,45 @@ export default class Contact extends React.Component {
   render() {
     const bgColor = {
     };
+    const labelStyle = {
+      paddingTop: '16px',
+      paddingRight: '5px',
+      fontSize: '13px',
+      textTransform: 'lowercase',
+      fontFamily: 'BelweLtBTWXX-Medium',
+      letterSpacing: '0.50px'
+    };
     return (
-      <div className="margin-0-auto max-width-970">
-        <section className="section group" style={{ paddingTop: '140px' }}>
-          <div className="col span_4_of_12" style={bgColor}>
-            <LabelParagraph label="snel">+3106123456</LabelParagraph>
+      <div>
+        <section className="max-width-970 section group" style={{ margin: '0 auto', paddingTop: '140px' }}>
+          <div className="col span_1_of_12 ta-right">
+            <div style={ labelStyle }>
+              Kijk
+            </div>
           </div>
-          <div className="col span_4_of_12" style={bgColor}>
-            <LabelParagraph label="ontmoet">
-              Groene Hilledijk <br />
-              3073 AG <br />
-              Rotterdam
-            </LabelParagraph>
-            <LabelParagraph label="kvk">
-              60376651
-            </LabelParagraph>
-            <LabelParagraph label="btw">
-              NL117370101B01
-            </LabelParagraph>
+          <div className="col0 span_2_of_12 fs-23px f-paragraph">
+            Instagram <br />
+            Facebook
           </div>
-          <div className="col span_4_of_12" style={bgColor}>
-            <LabelParagraph label="kijk">
-              Instagram <br />
-              Facebook <br />
-              Twitter <br />
-              Linkedin <br />
-              Behance
-            </LabelParagraph>
+          <div className="col0 span_2_of_12 fs-23px f-paragraph">
+            Twitter <br />
+            Linkedin
+          </div>
+          <div className="col0 span_2_of_12 fs-23px f-paragraph">
+            Behance <br />
+            Medium
+          </div>
+          <div className="col0 span_1_of_12 fs-23px f-paragraph">
+            Dribbble <br />
+            Tumblr
+          </div>
+          <div className="col span_1_of_12 ta-right">
+            <div style={ labelStyle }>
+              Lees
+            </div>
+          </div>
+          <div className="col0 fs-23px f-paragraph" style={{ width: '31%'}}>
+            Meld je aan voor de Nieuwsbrief
           </div>
         </section>
       </div>
