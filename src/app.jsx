@@ -24,7 +24,7 @@ export default class App extends React.Component {
         <Header />
         <div id="doublePage">
           <Contact />
-          <div className="max-width-970 section group" style={{margin: '0 auto'}}>
+          <div className="max-width-970 section group" style={{margin: '170px auto 0'}}>
             <div className="col span_1_of_12 ta-right">
               <div style={ labelStyle }>
                 Snel
