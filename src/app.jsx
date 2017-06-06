@@ -87,10 +87,10 @@ export default class App extends React.Component {
         </div>
 
         <div className="section group" style={{textAlign: 'center', background: '#303030'}}>
-          <div className="col span_1_of_2">
+          <div className="col span_1_of_2" style={{ margin: 0 }}>
             <img src="/images/project/wyws_portfolio_2.jpg" alt="" style={{maxWidth: '100%', maxHeight: '419px'}}/>
           </div>
-          <div className="col span_1_of_2">
+          <div className="col span_1_of_2" style={{ margin: 0 }}>
             <img src="/images/project/wyws_portfolio_3.jpg" alt="" style={{maxWidth: '100%', maxHeight: '419px'}}/>
           </div>
         </div>
