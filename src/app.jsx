@@ -73,13 +73,13 @@ export default class App extends React.Component {
         </div>
 
         <div style={{ background: '#313131' }}>
-          <div className="max-width-970 section group" style={ {margin: '0 auto', padding: '85px 0' }}>
+          <div className="max-width-970 section group" style={ {margin: '0 auto', padding: '85px 0 97px' }}>
             <div className="col span_1_of_12 ta-right">
               <div style={ labelStyle }>
                 Probleem
               </div>
             </div>
-            <div className="col0 span_11_of_12 fs-27px f-paragraph f-lh-33px">
+            <div className="col0 span_11_of_12 fs-23px f-paragraph f-lh-29px">
               Poster can be one of the effective marketing and advertising materials.
               It is also a great tool to use when you want to present your services to a new league or as a point of sale display on picture day.
               The poster must show your products that are available, along with your company name and contact information.
