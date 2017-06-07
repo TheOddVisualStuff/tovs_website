@@ -147,6 +147,15 @@ export default class App extends React.Component {
           </div>
         </div>
 
+        <div className="section group" style={{background: '#414141'}}>
+          <div className="col span_1_of_2" style={{ margin: 0, textAlign: 'right', width: '50%' }}>
+            <img src="/images/project/new-wyws_portfolio_11.jpg" alt="" style={{maxWidth: '100%', maxHeight: '513px'}}/>
+          </div>
+          <div className="col span_1_of_2" style={{ margin: 0, textAlign: 'left', width: '50%' }}>
+            <img src="/images/project/new-wyws_portfolio_12.jpg" alt="" style={{maxWidth: '100%', maxHeight: '513px'}}/>
+          </div>
+        </div>
+
       </div>
     )
   }
