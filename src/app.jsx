@@ -156,6 +156,49 @@ export default class App extends React.Component {
           </div>
         </div>
 
+        <div style={{ background: '#414141', height: '365px' }}>
+          <section className="max-width-1440 section group" style={{ margin: '0 auto', paddingTop: '68px' }}>
+            <div className="col span_1_of_12 ta-right">
+              <div style={ Object.assign({}, labelStyle, { paddingTop: '13px' }) }>
+                Kijk
+              </div>
+            </div>
+            <div className="col0 span_3_of_12 fs-23px f-paragraph f-lh-29px">
+              whileyouweresleepingkabk.com<br />
+              instagram.com/wyws.kabk<br />
+              facebook.com/wywws.kabk<br />
+              twitter.com/wyws.kabk
+            </div>
+
+            <div className="col span_1_of_12 ta-right">
+              <div style={ Object.assign({}, labelStyle, { paddingTop: '13px' }) }>
+                Services
+              </div>
+            </div>
+            <div className="col0 span_3_of_12 fs-23px f-paragraph f-lh-29px">
+              Creative Direction<br />
+              Strategy<br />
+              Design<br />
+              Development<br />
+              Content Production<br />
+              Project Management
+            </div>
+
+            <div className="col span_1_of_12 ta-right">
+              <div style={ Object.assign({}, labelStyle, { paddingTop: '13px' }) }>
+                De crew
+              </div>
+            </div>
+            <div className="col0 span_3_of_12 fs-23px f-paragraph f-lh-29px">
+              Alyar Aynetchi<br />
+              Bram de Leeuw<br />
+              Sara Risvaag<br />
+              Sepus Noordmans<br />
+              Tomas Laar
+            </div>
+          </section>
+        </div>
+
       </div>
     )
   }
