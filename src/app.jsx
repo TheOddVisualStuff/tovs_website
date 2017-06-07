@@ -119,6 +119,12 @@ export default class App extends React.Component {
           </div>
         </div>
 
+        <div style={{ backgroundColor: '#292929' }}>
+          <div className="margin-0-auto max-width-1440">
+            <img src="/images/project/new-wyws_portfolio_6.jpg" alt="" style={{ maxWidth: '100%', maxHeight: '608px' }}/>
+          </div>
+        </div>
+
       </div>
     )
   }
