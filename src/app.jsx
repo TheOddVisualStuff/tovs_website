@@ -125,6 +125,22 @@ export default class App extends React.Component {
           </div>
         </div>
 
+        <div style={{ backgroundColor: '#292929' }}>
+          <div className="margin-0-auto max-width-1440">
+            <div className="section group">
+              <div className="col-mtb1-mrl1 span_1_of_3" style={{ marginTop: 0 }}>
+                <img src="/images/project/wyws_portfolio_1-480.jpg" alt="" style={{ maxWidth: '100%', maxHeight: '601px' }}/>
+              </div>
+              <div className="col-mtb1-mrl1 span_1_of_3" style={{ marginTop: 0 }}>
+                <img src="/images/project/wyws_portfolio_2-480.jpg" alt="" style={{ maxWidth: '100%', maxHeight: '601px' }}/>
+              </div>
+              <div className="col-mtb1-mrl1 span_1_of_3" style={{ marginTop: 0 }}>
+                <img src="/images/project/wyws_portfolio_1-480.jpg" alt="" style={{ maxWidth: '100%', maxHeight: '601px' }}/>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     )
   }
