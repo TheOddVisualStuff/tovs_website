@@ -104,6 +104,21 @@ export default class App extends React.Component {
           </div>
         </div>
 
+        <div style={{ background: '#292929' }}>
+          <div className="max-width-970 section group" style={ {margin: '0 auto', padding: '86px 0 95px' }}>
+            <div className="col span_1_of_12 ta-right">
+              <div style={ Object.assign({}, labelStyle, {paddingTop: '12px'}) }>
+                Oplossing
+              </div>
+            </div>
+            <div className="col0 span_11_of_12 fs-23px f-paragraph f-lh-29px">
+              If you are applying for a job abroad (particularly in Europe or South America), a Motivation Letter For
+              Work Abroad takes the place of a Cover Letter. Both resumes and Motivation Letters are much less formal
+              than their United States equivalents.
+            </div>
+          </div>
+        </div>
+
       </div>
     )
   }
