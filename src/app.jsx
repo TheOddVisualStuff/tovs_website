@@ -73,7 +73,7 @@ export default class App extends React.Component {
         </div>
 
         <div style={{ background: '#313131' }}>
-          <div className="max-width-970 section group" style={ {margin: '0 auto', padding: '85px 0 97px' }}>
+          <div className="max-width-970 section group" style={ {margin: '0 auto', padding: '85px 0' }}>
             <div className="col span_1_of_12 ta-right">
               <div style={ labelStyle }>
                 Probleem
