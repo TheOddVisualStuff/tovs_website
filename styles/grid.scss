@@ -15,12 +15,20 @@
   float: left;
   margin: 1% 0 1% 1.6%;
 }
+
+.col-mtb1-mrl1 {
+  display: block;
+  float:left;
+  margin: 1% 0 1% 0%;
+}
+
 .label-paragraph-col {
   display: block;
   float:left;
   margin: 1% 0 1% 0.5%;
 }
 
+.col-mtb1-mrl1,
 .label-paragraph-col,
 .col:first-child { margin-left: 0; }
 
@@ -105,6 +113,18 @@
 }
 // 4 column grid END
 
+// 3 column grid START
+.span_3_of_3 {
+  width: 100%;
+}
+.span_2_of_3 {
+  width: 66.66%;
+}
+.span_1_of_3 {
+  width: 33.33%;
+}
+// 3 column grid END
+
 @media only screen and (max-width: 480px) {
   //.label-paragraph-col,
   .col {  margin: 1% 0 1% 0%; }
@@ -117,6 +137,8 @@
     width: 100%;
     text-align: left !important;
   }
+
+  .span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
 }
 
 @media only screen and (max-width: 690px) {

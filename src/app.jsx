@@ -106,6 +106,101 @@ export default class App extends React.Component {
           </div>
         </div>
 
+        <div style={{ background: '#292929' }}>
+          <div className="max-width-970 section group" style={ {margin: '0 auto', padding: '86px 0 95px' }}>
+            <div className="col span_1_of_12 ta-right">
+              <div style={ Object.assign({}, labelStyle, {paddingTop: '12px'}) }>
+                Oplossing
+              </div>
+            </div>
+            <div className="col0 span_11_of_12 fs-23px f-paragraph f-lh-29px">
+              If you are applying for a job abroad (particularly in Europe or South America), a Motivation Letter For
+              Work Abroad takes the place of a Cover Letter. Both resumes and Motivation Letters are much less formal
+              than their United States equivalents.
+            </div>
+          </div>
+        </div>
+
+        <div style={{ backgroundColor: '#292929' }}>
+          <div className="margin-0-auto max-width-1440">
+            <img src="/images/project/new-wyws_portfolio_6.jpg" alt="" style={{ maxWidth: '100%', maxHeight: '608px' }}/>
+          </div>
+        </div>
+
+        <div style={{ backgroundColor: '#292929' }}>
+          <div className="margin-0-auto max-width-1440">
+            <div className="section group">
+              <div className="col-mtb1-mrl1 span_1_of_3" style={{ margin: 0 }}>
+                <img src="/images/project/wyws_portfolio_1-480.jpg" alt="" style={{ maxWidth: '100%', maxHeight: '601px' }}/>
+              </div>
+              <div className="col-mtb1-mrl1 span_1_of_3" style={{ margin: 0 }}>
+                <img src="/images/project/wyws_portfolio_2-480.jpg" alt="" style={{ maxWidth: '100%', maxHeight: '601px' }}/>
+              </div>
+              <div className="col-mtb1-mrl1 span_1_of_3" style={{ margin: 0 }}>
+                <img src="/images/project/wyws_portfolio_3-480.jpg" alt="" style={{ maxWidth: '100%', maxHeight: '601px' }}/>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div style={{ backgroundColor: '#292929' }}>
+          <div className="margin-0-auto max-width-1440">
+            <img src="/images/project/new-wyws_portfolio_10.jpg" alt="" style={{ maxWidth: '100%', maxHeight: '601px' }}/>
+          </div>
+        </div>
+
+        <div className="section group" style={{background: '#292929'}}>
+          <div className="col span_1_of_2" style={{ margin: 0, textAlign: 'right', width: '50%' }}>
+            <img src="/images/project/new-wyws_portfolio_11.jpg" alt="" style={{maxWidth: '100%', maxHeight: '513px'}}/>
+          </div>
+          <div className="col span_1_of_2" style={{ margin: 0, textAlign: 'left', width: '50%' }}>
+            <img src="/images/project/new-wyws_portfolio_12.jpg" alt="" style={{maxWidth: '100%', maxHeight: '513px'}}/>
+          </div>
+        </div>
+
+        <div style={{ background: '#292929', height: '365px' }}>
+          <section className="max-width-1440 section group" style={{ margin: '0 auto', paddingTop: '68px' }}>
+            <div className="col span_1_of_12 ta-right">
+              <div style={ Object.assign({}, labelStyle, { paddingTop: '13px' }) }>
+                Kijk
+              </div>
+            </div>
+            <div className="col0 span_3_of_12 fs-23px f-paragraph f-lh-29px">
+              whileyouweresleepingkabk.com<br />
+              instagram.com/wyws.kabk<br />
+              facebook.com/wywws.kabk<br />
+              twitter.com/wyws.kabk
+            </div>
+
+            <div className="col span_1_of_12 ta-right">
+              <div style={ Object.assign({}, labelStyle, { paddingTop: '13px' }) }>
+                Services
+              </div>
+            </div>
+            <div className="col0 span_3_of_12 fs-23px f-paragraph f-lh-29px">
+              Creative Direction<br />
+              Strategy<br />
+              Design<br />
+              Development<br />
+              Content Production<br />
+              Project Management
+            </div>
+
+            <div className="col span_1_of_12 ta-right">
+              <div style={ Object.assign({}, labelStyle, { paddingTop: '13px' }) }>
+                De crew
+              </div>
+            </div>
+            <div className="col0 span_3_of_12 fs-23px f-paragraph f-lh-29px">
+              Alyar Aynetchi<br />
+              Bram de Leeuw<br />
+              Sara Risvaag<br />
+              Sepus Noordmans<br />
+              Tomas Laar
+            </div>
+          </section>
+        </div>
+
       </div>
     )
   }
