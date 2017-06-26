@@ -135,7 +135,7 @@ export default class App extends React.Component {
                 <img src="/images/project/wyws_portfolio_2-480.jpg" alt="" style={{ maxWidth: '100%', maxHeight: '601px' }}/>
               </div>
               <div className="col-mtb1-mrl1 span_1_of_3" style={{ margin: 0 }}>
-                <img src="/images/project/wyws_portfolio_1-480.jpg" alt="" style={{ maxWidth: '100%', maxHeight: '601px' }}/>
+                <img src="/images/project/wyws_portfolio_3-480.jpg" alt="" style={{ maxWidth: '100%', maxHeight: '601px' }}/>
               </div>
             </div>
           </div>
@@ -147,7 +147,7 @@ export default class App extends React.Component {
           </div>
         </div>
 
-        <div className="section group" style={{background: '#414141'}}>
+        <div className="section group" style={{background: '#292929'}}>
           <div className="col span_1_of_2" style={{ margin: 0, textAlign: 'right', width: '50%' }}>
             <img src="/images/project/new-wyws_portfolio_11.jpg" alt="" style={{maxWidth: '100%', maxHeight: '513px'}}/>
           </div>
@@ -156,7 +156,7 @@ export default class App extends React.Component {
           </div>
         </div>
 
-        <div style={{ background: '#414141', height: '365px' }}>
+        <div style={{ background: '#292929', height: '365px' }}>
           <section className="max-width-1440 section group" style={{ margin: '0 auto', paddingTop: '68px' }}>
             <div className="col span_1_of_12 ta-right">
               <div style={ Object.assign({}, labelStyle, { paddingTop: '13px' }) }>
