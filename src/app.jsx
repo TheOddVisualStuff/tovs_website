@@ -1,7 +1,8 @@
 import React from 'react';
 import Header from './components/header';
 import Contact from './components/contact';
-import LabelParagraph from './components/label-paragraph';
+import ProjectCard from './components/project-card';
+import ProjectCards from '../static/project-cards';
 
 export default class App extends React.Component {
   render() {
@@ -203,6 +204,8 @@ export default class App extends React.Component {
             &nbsp;
           </div>
         </div>
+
+        {ProjectCards.map(project => <ProjectCard key={project.id} {...project} />)}
 
       </div>
     )
