@@ -26,6 +26,10 @@ body {
   background-image: linear-gradient(-180deg, rgba(0,0,0,0.00) 0%, #000000 35%);
 }
 
+.gradientPlaceholder1 {
+  background-image: linear-gradient(to bottom, rgba(65, 65, 65, 0.0), #000000);
+}
+
 .max-width-1440 {
   max-width: 1440px;
 }
@@ -38,10 +42,30 @@ body {
   max-width: 970px;
 }
 
+.margin-0 {
+  margin: 0;
+}
+
 .margin-0-auto {
   margin: 0 auto;
 }
 
+.mt-74px {
+  margin-top: 74px;
+}
+
+.mb-10px {
+  margin-bottom: 10px;
+}
+
 a, a:hover {
   color: inherit;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
 }

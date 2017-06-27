@@ -1,7 +1,8 @@
 import React from 'react';
 import Header from './components/header';
 import Contact from './components/contact';
-import LabelParagraph from './components/label-paragraph';
+import ProjectCard from './components/project-card';
+import ProjectCards from '../static/project-cards';
 
 export default class App extends React.Component {
   render() {
@@ -21,7 +22,8 @@ export default class App extends React.Component {
 
     return (
       <div>
-        <Header />
+        <Header linkSrc="#home" linkName="Terug naar Aarde" isLarge />
+
         <div id="doublePage">
           <Contact />
           <div className="max-width-970 section group" style={{margin: '170px auto 0'}}>
@@ -158,7 +160,7 @@ export default class App extends React.Component {
           </div>
         </div>
 
-        <div style={{ background: '#292929', height: '365px' }}>
+        <div style={{ background: '#292929', height: '365px', position: 'relative' }}>
           <section className="max-width-1440 section group" style={{ margin: '0 auto', paddingTop: '68px' }}>
             <div className="col span_1_of_12 ta-right">
               <div style={ Object.assign({}, labelStyle, { paddingTop: '13px' }) }>
@@ -199,8 +201,14 @@ export default class App extends React.Component {
               Tomas Laar
             </div>
           </section>
+          <div style={{ position: 'absolute', bottom: 0, height: 81, width: '100%'}} className="gradientPlaceholder1">
+            &nbsp;
+          </div>
         </div>
 
+        {ProjectCards.map(project => <ProjectCard key={project.id} {...project} />)}
+
+        <Header linkName="Terug omhoog" linkSrc="#home" />
       </div>
     )
   }

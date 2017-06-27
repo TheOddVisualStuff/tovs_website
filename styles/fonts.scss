@@ -34,12 +34,28 @@
        url('/fonts/33E59C_0_0.svg#wf') format('svg');
 }
 
+.font-belwe {
+  font-family: 'BelweLtBTWXX-Medium';
+}
+
 .fw-normal {
   font-weight: normal;
 }
 
 .tt-uppercase {
  text-transform: uppercase;
+}
+
+.tt-lowercase {
+ text-transform: lowercase;
+}
+
+.fs-15px {
+  font-size: 15px;
+}
+
+.fs-20px {
+  font-size: 20px;
 }
 
 .fs-23px {
@@ -62,8 +78,16 @@
   font-size: 33px;
 }
 
+.ts-alpha55 {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.55);
+}
+
 .ta-right {
   text-align: right;
+}
+
+.ta-center {
+  text-align: center;
 }
 
 .f-tovs {
