@@ -5,6 +5,13 @@ import ProjectCard from './components/project-card';
 import ProjectCards from '../static/project-cards';
 
 export default class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      showMenu: false
+    };
+  }
+
   render() {
     const overRideStyle = {
       float: 'none',
@@ -19,6 +26,12 @@ export default class App extends React.Component {
       fontFamily: 'BelweLtBTWXX-Medium',
       letterSpacing: '0.50px'
     };
+
+    const toggleMenu = () => {
+      this.setState({
+        showMenu: !this.state.showMenu
+      })
+    }
 
     return (
       <div>
@@ -54,7 +67,11 @@ export default class App extends React.Component {
           <div id="home" className="page" style={{height: 'calc(100vh + 140px)', width: '100%', background: 'transparent'}}>
             <div style={{ position: 'absolute', height: 'calc(100vh + 140px)', width: '100%'}}>
 
-              <Header linkName="menu" linkSrc="#menu" />
+              <Header linkName="menu">
+                <a href="#menu" onClick={toggleMenu} className="float-right font-belwe fs-15px">menu</a>
+              </Header>
+
+              {this.state.showMenu && <div>Menu!</div>}
 
               <div style={{height:'70px', width: '100%'}}>
                 <h1 className="fs-33px" style={{ position: 'absolute', right: '9%', bottom: '22%', fontFamily: 'BelweLtBTWXX-Medium', fontWeight: 'normal'}}>
