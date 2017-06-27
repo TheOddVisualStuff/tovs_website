@@ -1,27 +1,26 @@
 import React from 'react';
+import cn from 'classnames';
 
 export default class Header extends React.Component {
   render() {
     const h1Style = {
       margin: 0,
-      padding: '47px 0 0 47px',
       float: 'left'
     };
 
     const aStyle = {
       float: 'right',
-      // marginTop: '54px',
-      marginTop: '60px',
-      marginRight: '45px',
       fontSize: '15px',
       fontFamily: 'belwe'
     };
 
+    const isLargeClass = this.props.isLarge && 'large' ? 'top large' : 'small';
+
     return (
-      <header className="header">
+      <header className={cn('Header', isLargeClass)}>
         <div className="margin-0-auto max-width-1200">
           <h1 className="fs-25px tt-uppercase f-tovs" style={ h1Style }>theoddvisualstuff</h1>
-          <a href="#home" style={ aStyle }>Terug naar Aarde</a>
+          <a href={this.props.linkSrc} style={ aStyle }>{this.props.linkName}</a>
         </div>
       </header>
     );
