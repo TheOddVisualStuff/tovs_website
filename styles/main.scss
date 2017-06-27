@@ -42,6 +42,10 @@ body {
   max-width: 970px;
 }
 
+.margin-0 {
+  margin: 0;
+}
+
 .margin-0-auto {
   margin: 0 auto;
 }
@@ -56,4 +60,12 @@ body {
 
 a, a:hover {
   color: inherit;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
 }

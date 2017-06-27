@@ -22,7 +22,8 @@ export default class App extends React.Component {
 
     return (
       <div>
-        <Header isLarge="true" linkName="Terug naar Aarde" linkSrc="#home" />
+        <Header linkSrc="#home" linkName="Terug naar Aarde" isLarge />
+
         <div id="doublePage">
           <Contact />
           <div className="max-width-970 section group" style={{margin: '170px auto 0'}}>
@@ -206,6 +207,7 @@ export default class App extends React.Component {
         </div>
 
         {ProjectCards.map(project => <ProjectCard key={project.id} {...project} />)}
+
         <Header linkName="Terug omhoog" linkSrc="#home" />
       </div>
     )
