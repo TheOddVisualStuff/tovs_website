@@ -1,4 +1,5 @@
 import React from 'react';
+import cn from 'classnames';
 import Header from './components/header';
 import Contact from './components/contact';
 import ProjectCard from './components/project-card';
@@ -8,7 +9,8 @@ export default class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      showMenu: false
+      showMenu: false,
+      animateMenu: false
     };
   }
 
@@ -29,9 +31,10 @@ export default class App extends React.Component {
 
     const toggleMenu = () => {
       this.setState({
-        showMenu: !this.state.showMenu
+        showMenu: !this.state.showMenu,
+        animateMenu: true
       })
-    }
+    };
 
     return (
       <div>
@@ -74,7 +77,12 @@ export default class App extends React.Component {
               {this.state.showMenu && <div>Menu!</div>}
 
               <div style={{height:'70px', width: '100%'}}>
-                <h1 className="fs-33px" style={{ position: 'absolute', right: '9%', bottom: '22%', fontFamily: 'BelweLtBTWXX-Medium', fontWeight: 'normal'}}>
+                <h1 className={cn('fs-33px font-belwe menuHeader', {
+                  'animated': this.state.animateMenu,
+                  'animateMenuOpen': this.state.showMenu,
+                  'animateMenuClosed': !this.state.showMenu
+                })}
+                >
                   (inter)planetary Creative Design services
                 </h1>
               </div>
