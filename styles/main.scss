@@ -103,16 +103,27 @@ a, a:hover {
 
 .menuHeader {
   position: absolute;
-  right: 9%;
+  right: 16%;
   bottom: 22%;
 }
 
 .animateMenuOpen {
-  right: 19%;
+  right: 26%;
   animation-name: slideInRight;
 }
 
 .animateMenuClosed {
-  right: 9%;
+  right: 16%;
   animation-name: slideInLeft;
+}
+
+#Menu {
+  width: 25%;
+  min-width: 320px;
+  background: black;
+  color: white;
+  height: 78%;
+  position: absolute;
+  right: 0;
+  top: 0;
 }

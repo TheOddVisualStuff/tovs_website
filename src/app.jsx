@@ -29,11 +29,12 @@ export default class App extends React.Component {
       letterSpacing: '0.50px'
     };
 
-    const toggleMenu = () => {
+    const toggleMenu = (e) => {
       this.setState({
         showMenu: !this.state.showMenu,
         animateMenu: true
-      })
+      });
+      e.preventDefault();
     };
 
     return (
@@ -70,11 +71,13 @@ export default class App extends React.Component {
           <div id="home" className="page" style={{height: 'calc(100vh + 140px)', width: '100%', background: 'transparent'}}>
             <div style={{ position: 'absolute', height: 'calc(100vh + 140px)', width: '100%'}}>
 
-              <Header linkName="menu">
+              <Header>
                 <a href="#menu" onClick={toggleMenu} className="float-right font-belwe fs-15px">menu</a>
               </Header>
 
-              {this.state.showMenu && <div>Menu!</div>}
+              {this.state.showMenu && <div id="Menu">
+                <a href="#menu" onClick={toggleMenu} className="float-left font-belwe fs-15px">X</a>
+              </div>}
 
               <div style={{height:'70px', width: '100%'}}>
                 <h1 className={cn('fs-33px font-belwe menuHeader', {
