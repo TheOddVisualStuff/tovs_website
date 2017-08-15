@@ -23,7 +23,7 @@ export default function ProjectCard(props) {
   const classes = {
     wrapper: 'margin-0-auto max-width-1440',
     textContainer: 'gradient ta-center',
-    header: 'fs-33px f-lh-33px fw-normal mt-74px mb-10px ts-alpha55 ',
+    header: 'fs-33px f-lh-33px fw-normal mt-74px mb-10px ts-0-0-1-black-015',
     link: 'font-belwe fs-20px tt-lowercase'
   };
 

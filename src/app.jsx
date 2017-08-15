@@ -1,10 +1,19 @@
 import React from 'react';
+import cn from 'classnames';
 import Header from './components/header';
 import Contact from './components/contact';
 import ProjectCard from './components/project-card';
 import ProjectCards from '../static/project-cards';
 
 export default class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      showMenu: false,
+      animateMenu: false
+    };
+  }
+
   render() {
     const overRideStyle = {
       float: 'none',
@@ -20,9 +29,17 @@ export default class App extends React.Component {
       letterSpacing: '0.50px'
     };
 
+    const toggleMenu = (e) => {
+      this.setState({
+        showMenu: !this.state.showMenu,
+        animateMenu: true
+      });
+      e.preventDefault();
+    };
+
     return (
       <div>
-        <Header linkSrc="#home" linkName="Terug naar Aarde" isLarge />
+        <Header linkSrc="#home" linkName="Terug omlaag" isLarge />
 
         <div id="doublePage">
           <Contact />
@@ -53,11 +70,22 @@ export default class App extends React.Component {
 
           <div id="home" className="page" style={{height: 'calc(100vh + 140px)', width: '100%', background: 'transparent'}}>
             <div style={{ position: 'absolute', height: 'calc(100vh + 140px)', width: '100%'}}>
-              <div className="margin-0-auto max-width-1200">
-                <h1 className="fs-25px tt-uppercase f-tovs" style={{ margin: 0, padding: '47px 0px 0px 47px' }}>theoddvisualstuff</h1>
-              </div>
+
+              <Header>
+                <a href="#menu" onClick={toggleMenu} className="float-right font-belwe fs-15px">menu</a>
+              </Header>
+
+              {this.state.showMenu && <div id="Menu">
+                <a href="#menu" onClick={toggleMenu} className="float-left font-belwe fs-15px">X</a>
+              </div>}
+
               <div style={{height:'70px', width: '100%'}}>
-                <h1 className="fs-33px" style={{ position: 'absolute', right: '9%', bottom: '22%', fontFamily: 'BelweLtBTWXX-Medium', fontWeight: 'normal'}}>
+                <h1 className={cn('fs-33px font-belwe menuHeader', {
+                  'animated': this.state.animateMenu,
+                  'animateMenuOpen': this.state.showMenu,
+                  'animateMenuClosed': !this.state.showMenu
+                })}
+                >
                   (inter)planetary Creative Design services
                 </h1>
               </div>

@@ -69,3 +69,61 @@ a, a:hover {
 .float-right {
   float: right;
 }
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translate3d(28%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInRight {
+  animation-name: slideInRight;
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translate3d(-28%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.menuHeader {
+  position: absolute;
+  right: 16%;
+  bottom: 22%;
+}
+
+.animateMenuOpen {
+  right: 26%;
+  animation-name: slideInRight;
+}
+
+.animateMenuClosed {
+  right: 16%;
+  animation-name: slideInLeft;
+}
+
+#Menu {
+  width: 25%;
+  min-width: 320px;
+  background: black;
+  color: white;
+  height: 78%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
