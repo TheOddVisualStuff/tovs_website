@@ -50,9 +50,9 @@ export default class App extends React.Component {
               </div>
             </div>
             <div className="col0 span_11_of_12 fs-27px f-paragraph f-lh-33px">
-              The Odd Visual Stuff denkt, ontwerpt en creëert interdisiplinair.
-              Dat betekent dat je niet klaar bent met alleen een logo of website. Maar het begint allemaal concept.
-              Een groot netwerk van creative collaga’s maakt het mogelijk om zo divers Design te maken.
+              TOVS combineert strategie, art direction en productie tot een Creative Design service.
+              Geleverde diensten zijn conceptontwikkeling, (digital)branding, web en print design, ruimtelijk ontwerp
+              en video editing.
             </div>
           </div>
 
@@ -63,8 +63,11 @@ export default class App extends React.Component {
               </div>
             </div>
             <div className="col0 span_11_of_12 fs-27px f-paragraph f-lh-33px">
-              Verbazen en laten zien wat er mogelijk is. Dat is het doel van Creative Direction.
-              The Odd Visual Stuff helpt mensen en merken de volgende stap te maken Een duidelijk idee en motivatie is net zo belangerijk.
+              The Odd Visual Stuff (TOVS) is een design studio die inspeelt op verwachtingen.
+              Is iets herkenbaar dan volgt er een onverwachte wending. Gebaande paden worden niet bewandeld, echter
+              samen stippelen we onze route uit. TOVS kijkt naar wat personen uniek maakt en legt daar de focus op.
+              Het resultaat is eigentijds design met een gezonde dosis subversieviteit. TOVS is er voor iedereen die
+              zich wilt onderscheiden.
             </div>
           </div>
 
@@ -110,10 +113,10 @@ export default class App extends React.Component {
               </div>
             </div>
             <div className="col0 span_11_of_12 fs-23px f-paragraph f-lh-29px">
-              Poster can be one of the effective marketing and advertising materials.
-              It is also a great tool to use when you want to present your services to a new league or as a point of sale display on picture day.
-              The poster must show your products that are available, along with your company name and contact information.
-              If you having trouble about creating a good 4 color poster print, a 4 color printing company that has 4 color poster printing service may be able to help you made your poster.
+              De afdeling grafisch ontwerp van de KABK creëert elk jaar hun eigen eindexamen show.
+              Hiervoor wordt een groep samengesteld van op dat moment afstuderende studenten. Ik werd gevraagd om deel
+              te zijn van de groep uit 2015. Het project bestond uit het ontwerpen van een visuele en interieur
+              identiteit voor de hele show.
             </div>
           </div>
         </div>
@@ -144,9 +147,10 @@ export default class App extends React.Component {
               </div>
             </div>
             <div className="col0 span_11_of_12 fs-23px f-paragraph f-lh-29px">
-              If you are applying for a job abroad (particularly in Europe or South America), a Motivation Letter For
-              Work Abroad takes the place of a Cover Letter. Both resumes and Motivation Letters are much less formal
-              than their United States equivalents.
+              De focus was om de attitude van de groep studenten te vertalen. Een poster reeks, tentoonstellings krant
+              en website vormen samen de visuele identiteit. Ook hebben we een crowdfunding campagne opgezet en behaald.
+              Voor de interieur identiteit is een modulair systeem ontworpen zodat studenten hun eigen meubels
+              konden maken.
             </div>
           </div>
         </div>
